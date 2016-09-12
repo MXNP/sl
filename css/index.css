@@ -4,8 +4,8 @@
 
 .version.index /* version checker */
 {
-	color: #00000A;
-	background-color: #9571AA;
+	color: #0000F0;
+	background-color: #71C7B5;
 }
 
 .html
@@ -74,10 +74,10 @@
 	width: 271px;
 	min-height: 120px;
 	background-color: transparent;
-	line-height: 65px;
 	color: #FFFFFF;
 	font-size: 72px;
 	text-align: center;
+	line-height: 65px;
 	font-family: '__StratumNo2_5';
 	font-weight: 900;
 	position: relative;
@@ -92,10 +92,10 @@
 	width: 230px;
 	min-height: 19px;
 	background-color: transparent;
-	line-height: 27px;
 	color: #FFFFFF;
 	font-size: 30px;
 	text-align: right;
+	line-height: 27px;
 	font-family: '__StratumNo2_5';
 	font-weight: 900;
 	position: relative;
@@ -110,10 +110,10 @@
 	width: 230px;
 	min-height: 19px;
 	background-color: transparent;
-	line-height: 27px;
 	color: #FFFFFF;
 	font-size: 30px;
 	text-align: left;
+	line-height: 27px;
 	font-family: '__StratumNo2_5';
 	font-weight: 900;
 	position: relative;
@@ -128,9 +128,9 @@
 	width: 260px;
 	min-height: 19px;
 	background-color: #F0F0F0;
-	line-height: 14px;
 	font-size: 16px;
 	text-align: right;
+	line-height: 14px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -154,9 +154,9 @@
 	width: 200px;
 	min-height: 19px;
 	background-color: #F0F0F0;
-	line-height: 14px;
 	font-size: 16px;
 	text-align: right;
+	line-height: 14px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -171,9 +171,9 @@
 	width: 200px;
 	min-height: 19px;
 	background-color: #F0F0F0;
-	line-height: 14px;
 	font-size: 16px;
 	text-align: left;
+	line-height: 14px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: relative;
@@ -198,19 +198,19 @@
 
 @font-face
 {
-	font-family: '__StratumNo2_5';
-	src: url('../fonts/stratum2-black-webfont.eot');
-	src: local('☺'), url('../fonts/stratum2-black-webfont.woff') format('woff');
-	font-weight: 900;
+	font-family: '__Apercu Mono_5';
+	src: url('../fonts/apercu-mono-webfont.eot');
+	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
+	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face
 {
-	font-family: '__Apercu Mono_5';
-	src: url('../fonts/apercu-mono-webfont.eot');
-	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
-	font-weight: 400;
+	font-family: '__StratumNo2_5';
+	src: url('../fonts/stratum2-black-webfont.eot');
+	src: local('☺'), url('../fonts/stratum2-black-webfont.woff') format('woff');
+	font-weight: 900;
 	font-style: normal;
 }
 

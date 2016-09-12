@@ -1,10 +1,10 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="https://mxnp.github.io/sl" resolutions="1x" timestamp="1473655739044">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="https://mxnp.github.io/sl" resolutions="1x" timestamp="1473660563234">
   <folder name="assets">
     <file name="sydleague2a.mp4" crc="4123751977" seo="true" mt="1473654842000"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
-    <file name="index.css" crc="177566122" ref="index"/>
+    <file name="index.css" crc="4033988533" ref="index"/>
     <file name="master_mcs-pages.css" crc="3781302228" ref="mcs-matches:mcs:mcs-teams"/>
     <file name="mcs-matches.css" crc="4008017837" ref="mcs-matches"/>
     <file name="mcs.css" crc="217411525" ref="mcs"/>
@@ -35,7 +35,7 @@
     <file name="ctlogowhlarge - gradient.png" crc="4211089432" seo="true" ref="mcs:mcs-matches:mcs-teams"/>
     <file name="scl summer mount logo test - grad.png" crc="4095465969" seo="true" ref="summer-2016"/>
   </folder>
-  <file name="index.html" crc="3790692985" seo="true" mt="1473655544551" redirect="true"/>
+  <file name="index.html" crc="16423338" seo="true" mt="1473660524645" redirect="true"/>
   <file name="mcs.html" crc="3917883293" seo="true" mt="1473654953372" redirect="true"/>
   <file name="mcs-matches.html" crc="3793343978" seo="true" mt="1473611209096" redirect="true"/>
   <file name="summer-2016.html" crc="195266397" seo="true" mt="1473611209099" redirect="true"/>
