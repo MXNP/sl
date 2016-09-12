@@ -4,8 +4,8 @@
 
 .version.mcs_matches /* version checker */
 {
-	color: #0000F1;
-	background-color: #BA650F;
+	color: #000002;
+	background-color: #426D65;
 }
 
 .html
@@ -535,19 +535,19 @@
 
 @font-face
 {
-	font-family: '__StratumNo2Bold_5';
-	src: url('../fonts/stratumno2-bold-webfont.eot');
-	src: local('☺'), url('../fonts/stratumno2-bold-webfont.woff') format('woff');
-	font-weight: 700;
+	font-family: '__Apercu Mono_5';
+	src: url('../fonts/apercu-mono-webfont.eot');
+	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
+	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face
 {
-	font-family: '__Apercu Mono_5';
-	src: url('../fonts/apercu-mono-webfont.eot');
-	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
-	font-weight: 400;
+	font-family: '__StratumNo2Bold_5';
+	src: url('../fonts/stratumno2-bold-webfont.eot');
+	src: local('☺'), url('../fonts/stratumno2-bold-webfont.woff') format('woff');
+	font-weight: 700;
 	font-style: normal;
 }
 

@@ -4,8 +4,8 @@
 
 .version.summer_2016 /* version checker */
 {
-	color: #000010;
-	background-color: #729FCF;
+	color: #0000E2;
+	background-color: #BF12AA;
 }
 
 .html
@@ -524,15 +524,6 @@
 
 @font-face
 {
-	font-family: '__StratumNo2Bold_5';
-	src: url('../fonts/stratumno2-bold-webfont.eot');
-	src: local('☺'), url('../fonts/stratumno2-bold-webfont.woff') format('woff');
-	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face
-{
 	font-family: '__Apercu Mono_5';
 	src: url('../fonts/apercu-mono-webfont.eot');
 	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
@@ -546,6 +537,15 @@
 	src: url('../fonts/stratumno2-medium-webfont.eot');
 	src: local('☺'), url('../fonts/stratumno2-medium-webfont.woff') format('woff');
 	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__StratumNo2Bold_5';
+	src: url('../fonts/stratumno2-bold-webfont.eot');
+	src: local('☺'), url('../fonts/stratumno2-bold-webfont.woff') format('woff');
+	font-weight: 700;
 	font-style: normal;
 }
 

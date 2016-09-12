@@ -4,8 +4,8 @@
 
 .version.index /* version checker */
 {
-	color: #0000F0;
-	background-color: #71C7B5;
+	color: #0000FC;
+	background-color: #82E31D;
 }
 
 .html
@@ -26,23 +26,9 @@
 	margin-right: auto;
 }
 
-#u408
-{
-	z-index: 2;
-	width: 200px;
-	min-height: 100px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 82px;
-	left: -100px;
-}
-
 #u415
 {
-	z-index: 3;
+	z-index: 2;
 	width: 400px;
 	min-height: 300px;
 	border-style: none;
@@ -53,24 +39,24 @@
 	margin-top: 60px;
 }
 
-#u420
+#u422
 {
-	z-index: 4;
+	z-index: 3;
 	min-height: 900px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
 }
 
-#u420-bw
+#u422-bw
 {
-	z-index: 4;
+	z-index: 3;
 	min-height: 900px;
 }
 
 #u77-6
 {
-	z-index: 5;
+	z-index: 4;
 	width: 271px;
 	min-height: 120px;
 	background-color: transparent;
@@ -88,7 +74,7 @@
 
 #u83-4
 {
-	z-index: 11;
+	z-index: 10;
 	width: 230px;
 	min-height: 19px;
 	background-color: transparent;
@@ -106,7 +92,7 @@
 
 #u84-4
 {
-	z-index: 15;
+	z-index: 14;
 	width: 230px;
 	min-height: 19px;
 	background-color: transparent;
@@ -124,10 +110,12 @@
 
 #u85-4
 {
-	z-index: 19;
+	z-index: 18;
 	width: 260px;
 	min-height: 19px;
-	background-color: #F0F0F0;
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.15);
+	color: #FFFFFF;
 	font-size: 16px;
 	text-align: right;
 	line-height: 14px;
@@ -137,23 +125,46 @@
 	margin-right: -10000px;
 	margin-top: 614px;
 	left: 65px;
+	-pie-background: rgba(255,255,255,0.15);
 }
 
 #u85-4:hover
 {
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.25);
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 19px;
 	width: 260px;
 	margin: 614px -10000px 0px 0px;
+	-pie-background: rgba(255,255,255,0.25);
+}
+
+#u85-4:active
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.4);
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 19px;
+	width: 260px;
+	margin: 614px -10000px 0px 0px;
+	-pie-background: rgba(255,255,255,0.4);
+}
+
+#u85-4:hover p
+{
+	text-decoration: underline;
 }
 
 #u88-4
 {
-	z-index: 23;
+	z-index: 22;
 	width: 200px;
 	min-height: 19px;
-	background-color: #F0F0F0;
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.15);
+	color: #FFFFFF;
 	font-size: 16px;
 	text-align: right;
 	line-height: 14px;
@@ -163,14 +174,46 @@
 	margin-right: -10000px;
 	margin-top: 590px;
 	left: 125px;
+	-pie-background: rgba(255,255,255,0.15);
+}
+
+#u88-4:hover
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.25);
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 19px;
+	width: 200px;
+	margin: 590px -10000px 0px 0px;
+	-pie-background: rgba(255,255,255,0.25);
+}
+
+#u88-4:active
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.4);
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 19px;
+	width: 200px;
+	margin: 590px -10000px 0px 0px;
+	-pie-background: rgba(255,255,255,0.4);
+}
+
+#u85-4:active p,#u88-4:hover p
+{
+	text-decoration: underline;
 }
 
 #u90-4
 {
-	z-index: 27;
+	z-index: 26;
 	width: 200px;
 	min-height: 19px;
-	background-color: #F0F0F0;
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.15);
+	color: #FFFFFF;
 	font-size: 16px;
 	text-align: left;
 	line-height: 14px;
@@ -180,29 +223,41 @@
 	margin-right: -10000px;
 	margin-top: 590px;
 	left: 955px;
+	-pie-background: rgba(255,255,255,0.15);
 }
 
-#u88-4:hover,#u90-4:hover
+#u90-4:hover
 {
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.25);
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 19px;
 	width: 200px;
 	margin: 590px -10000px 0px 0px;
+	-pie-background: rgba(255,255,255,0.25);
 }
 
-#u85-4:hover p,#u88-4:hover p,#u90-4:hover p
+#u90-4:active
+{
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.4);
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 19px;
+	width: 200px;
+	margin: 590px -10000px 0px 0px;
+	-pie-background: rgba(255,255,255,0.4);
+}
+
+#u88-4:active p,#u90-4:hover p
 {
 	text-decoration: underline;
 }
 
-@font-face
+#u90-4:active p
 {
-	font-family: '__Apercu Mono_5';
-	src: url('../fonts/apercu-mono-webfont.eot');
-	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
-	font-weight: 400;
-	font-style: normal;
+	text-decoration: underline;
 }
 
 @font-face
@@ -211,6 +266,15 @@
 	src: url('../fonts/stratum2-black-webfont.eot');
 	src: local('☺'), url('../fonts/stratum2-black-webfont.woff') format('woff');
 	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__Apercu Mono_5';
+	src: url('../fonts/apercu-mono-webfont.eot');
+	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
+	font-weight: 400;
 	font-style: normal;
 }
 
