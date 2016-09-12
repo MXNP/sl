@@ -1,33 +1,31 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="https://mxnp.github.io/sl" resolutions="1x" timestamp="1473660563234">
-  <folder name="assets">
-    <file name="sydleague2a.mp4" crc="4123751977" seo="true" mt="1473654842000"/>
-  </folder>
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="https://mxnp.github.io/sl" resolutions="1x" timestamp="1473660775201">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
+    <file name="master_summer-pages.css" crc="369331055" ref="summer-2016"/>
+    <file name="master_mcs-pages.css" crc="484084355" ref="mcs-matches:mcs-teams:mcs"/>
+    <file name="summer-2016.css" crc="275947471" ref="summer-2016"/>
     <file name="index.css" crc="4033988533" ref="index"/>
-    <file name="master_mcs-pages.css" crc="3781302228" ref="mcs-matches:mcs:mcs-teams"/>
-    <file name="mcs-matches.css" crc="4008017837" ref="mcs-matches"/>
-    <file name="mcs.css" crc="217411525" ref="mcs"/>
-    <file name="summer-2016.css" crc="4148528243" ref="summer-2016"/>
-    <file name="master_summer-pages.css" crc="346655396" ref="summer-2016"/>
-    <file name="mcs-teams.css" crc="199112362" ref="mcs-teams"/>
+    <file name="mcs-matches.css" crc="4055524623" ref="mcs-matches"/>
+    <file name="mcs-teams.css" crc="3954936907" ref="mcs-teams"/>
+    <file name="mcs.css" crc="4021410728" ref="mcs"/>
   </folder>
   <folder name="fonts">
-    <file name="stratum2-black-webfont.woff" crc="4095029536"/>
-    <file name="stratum2-black-webfont.eot" crc="3813293174"/>
     <file name="apercu-mono-webfont.woff" crc="374742191"/>
     <file name="apercu-mono-webfont.eot" crc="4171677180"/>
-    <file name="frank-regular.woff" crc="4238378625"/>
-    <file name="frank-regular.eot" crc="384019363"/>
-    <file name="stratumno2-medium-webfont.woff" crc="4241723583"/>
-    <file name="stratumno2-medium-webfont.eot" crc="3889206302"/>
+    <file name="stratum2-black-webfont.woff" crc="4095029536"/>
+    <file name="stratum2-black-webfont.eot" crc="3813293174"/>
     <file name="stratumno2-bold-webfont.woff" crc="3766144786"/>
     <file name="stratumno2-bold-webfont.eot" crc="4222924298"/>
+    <file name="stratumno2-medium-webfont.woff" crc="4241723583"/>
+    <file name="stratumno2-medium-webfont.eot" crc="3889206302"/>
+  </folder>
+  <folder name="assets">
+    <file name="sydleague2a.mp4" crc="4123751977" seo="true" mt="1473654842000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:mcs:mcs-matches:summer-2016:mcs-teams"/>
     <file name="museutils.js" crc="183364071" ref="index:mcs:mcs-matches:summer-2016:mcs-teams"/>
-    <file name="jquery.watch.js" crc="71412426" ref="mcs:summer-2016:mcs-teams:mcs-matches:index"/>
+    <file name="jquery.watch.js" crc="71412426" ref="index:mcs:mcs-matches:summer-2016:mcs-teams"/>
     <file name="webpro.js" crc="3803554875" ref="mcs-matches:summer-2016"/>
     <file name="musewpdisclosure.js" crc="3993616448" ref="mcs-matches:summer-2016"/>
   </folder>
@@ -35,7 +33,7 @@
     <file name="ctlogowhlarge - gradient.png" crc="4211089432" seo="true" ref="mcs:mcs-matches:mcs-teams"/>
     <file name="scl summer mount logo test - grad.png" crc="4095465969" seo="true" ref="summer-2016"/>
   </folder>
-  <file name="index.html" crc="16423338" seo="true" mt="1473660524645" redirect="true"/>
+  <file name="index.html" crc="235006538" seo="true" mt="1473660737982" redirect="true"/>
   <file name="mcs.html" crc="3917883293" seo="true" mt="1473654953372" redirect="true"/>
   <file name="mcs-matches.html" crc="3793343978" seo="true" mt="1473611209096" redirect="true"/>
   <file name="summer-2016.html" crc="195266397" seo="true" mt="1473611209099" redirect="true"/>
